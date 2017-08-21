@@ -1,0 +1,213 @@
+INFO - Connecting to MQTT and Cassandra database.
+DEBUG - Using Log4J as the default logging framework
+DEBUG - java.nio.Buffer.address: available
+DEBUG - sun.misc.Unsafe.theUnsafe: available
+DEBUG - sun.misc.Unsafe.copyMemory: available
+DEBUG - java.nio.Bits.unaligned: true
+DEBUG - java.nio.DirectByteBuffer.<init>(long, int): available
+DEBUG - Java version: 8
+DEBUG - -Dio.netty.noUnsafe: false
+DEBUG - sun.misc.Unsafe: available
+DEBUG - -Dio.netty.noJavassist: false
+DEBUG - Javassist: unavailable
+DEBUG - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+DEBUG - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG - -Dio.netty.noPreferDirect: false
+DEBUG - io.netty.maxDirectMemory: 2772434944 bytes
+DEBUG - -Dio.netty.eventLoopThreads: 8
+DEBUG - -Dio.netty.noKeySetOptimization: false
+DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512
+TRACE - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@78047b92
+TRACE - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@8909f18
+TRACE - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@79ca92b9
+TRACE - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1460a8c0
+TRACE - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@4f638935
+TRACE - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@4387b79e
+TRACE - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e75aa0d
+TRACE - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@7fc229ab
+DEBUG - -Dio.netty.leakDetection.level: simple
+DEBUG - -Dio.netty.leakDetection.maxRecords: 4
+DEBUG - -Dio.netty.allocator.numHeapArenas: 8
+DEBUG - -Dio.netty.allocator.numDirectArenas: 8
+DEBUG - -Dio.netty.allocator.pageSize: 8192
+DEBUG - -Dio.netty.allocator.maxOrder: 11
+DEBUG - -Dio.netty.allocator.chunkSize: 16777216
+DEBUG - -Dio.netty.allocator.tinyCacheSize: 512
+DEBUG - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG - -Dio.netty.initialSeedUniquifier: 0x2ed005327194a935 (took 0 ms)
+DEBUG - -Dio.netty.allocator.type: unpooled
+DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536
+DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG - -Dio.netty.recycler.maxCapacity.default: 262144
+DEBUG - -Dio.netty.recycler.linkCapacity: 16
+DEBUG - -Dio.netty.buffer.bytebuf.checkAccessible: true
+INFO - Subscribe to /joel-weatherman/sensor to process values.
+TRACE - Processing value 24.50.
+TRACE - Processing value 24.60.
+TRACE - Processing value 24.60.
+TRACE - Processing value 24.50.
+TRACE - Processing value 24.60.
+TRACE - Processing value 24.60.
+TRACE - Processing value 24.50.
+TRACE - Processing value 24.60.
+TRACE - Processing value 24.60.
+TRACE - Processing value 24.60.
+TRACE - Processing value 24.60.
+TRACE - Processing value 24.60.
+TRACE - Processing value 24.50.
+TRACE - Processing value 24.50.
+TRACE - Processing value 24.50.
+TRACE - Processing value 24.50.
+TRACE - Processing value 24.50.
+TRACE - Processing value 24.50.
+TRACE - Processing value 24.50.
+TRACE - Processing value 24.10.
+TRACE - Processing value 24.40.
+TRACE - Processing value 24.40.
+TRACE - Processing value 24.40.
+TRACE - Processing value 24.40.
+TRACE - Processing value 24.40.
+TRACE - Processing value 24.40.
+TRACE - Processing value 24.40.
+TRACE - Processing value 24.40.
+TRACE - Processing value 24.40.
+TRACE - Processing value 24.30.
+TRACE - Processing value 24.40.
+TRACE - Processing value 24.40.
+TRACE - Processing value 24.30.
+TRACE - Processing value 24.40.
+TRACE - Processing value 24.30.
+TRACE - Processing value 24.30.
+TRACE - Processing value 24.30.
+TRACE - Processing value 24.30.
+TRACE - Processing value 24.30.
+TRACE - Processing value 24.20.
+TRACE - Processing value 24.30.
+TRACE - Processing value 24.20.
+TRACE - Processing value 24.20.
+TRACE - Processing value 24.20.
+TRACE - Processing value 24.20.
+TRACE - Processing value 24.20.
+TRACE - Processing value 24.20.
+TRACE - Processing value 24.20.
+TRACE - Processing value 24.20.
+TRACE - Processing value 24.10.
+TRACE - Processing value 24.10.
+TRACE - Processing value 24.10.
+TRACE - Processing value 24.10.
+TRACE - Processing value 24.10.
+TRACE - Processing value 24.10.
+TRACE - Processing value 24.10.
+TRACE - Processing value 24.10.
+TRACE - Processing value 24.10.
+TRACE - Processing value 24.10.
+TRACE - Processing value 24.10.
+TRACE - Processing value 24.10.
+TRACE - Processing value 24.00.
+TRACE - Processing value 24.00.
+TRACE - Processing value 24.00.
+TRACE - Processing value 24.00.
+TRACE - Processing value 24.00.
+TRACE - Processing value 24.00.
+TRACE - Processing value 24.00.
+TRACE - Processing value 24.00.
+TRACE - Processing value 24.00.
+TRACE - Processing value 24.00.
+TRACE - Processing value 24.00.
+TRACE - Processing value 23.90.
+TRACE - Processing value 24.00.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.80.
+TRACE - Processing value 23.90.
+TRACE - Processing value 23.80.
+TRACE - Processing value 23.80.
+TRACE - Processing value 23.80.
+TRACE - Processing value 23.80.
+TRACE - Processing value 23.80.
+TRACE - Processing value 23.80.
+TRACE - Processing value 23.80.
+TRACE - Processing value 23.80.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.80.
+TRACE - Processing value 23.80.
+TRACE - Processing value 23.80.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.80.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.70.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.60.
+TRACE - Processing value 23.70.

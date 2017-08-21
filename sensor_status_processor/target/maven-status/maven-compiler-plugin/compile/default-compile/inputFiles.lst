@@ -1,0 +1,5 @@
+/home/joel/workspace_sensorstatus/sensor_status_processor/src/main/java/com/joel/iot/sensorstatus/events/Value.java
+/home/joel/workspace_sensorstatus/sensor_status_processor/src/main/java/com/joel/iot/sensorstatus/cassandra/CassandraSink.java
+/home/joel/workspace_sensorstatus/sensor_status_processor/src/main/java/com/joel/iot/sensorstatus/SensorProcessor.java
+/home/joel/workspace_sensorstatus/sensor_status_processor/src/main/java/com/joel/iot/sensorstatus/mqttstreaming/MqttSubject.java
+/home/joel/workspace_sensorstatus/sensor_status_processor/src/main/java/com/joel/iot/sensorstatus/cassandra/CassandraConnector.java
