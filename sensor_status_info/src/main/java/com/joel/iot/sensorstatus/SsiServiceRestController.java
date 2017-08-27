@@ -1,6 +1,7 @@
 package com.joel.iot.sensorstatus;
 
 import java.io.IOException;
+import java.sql.Timestamp;
 import java.util.Date;
 import java.util.Map;
 
@@ -46,6 +47,15 @@ public class SsiServiceRestController {
 		System.out.println(pstmt.getQueryString());
 		BoundStatement bstmt = new BoundStatement(pstmt);
 		bstmt.setInt(0, deviceId);
+		if(since != null) {
+			bstmt.setTimestamp(1, Timestamp.valueOf(since));
+		}
+		if(since != null && to != null) {
+			bstmt.setTimestamp(2, Timestamp.valueOf(to));
+		}
+		if(since == null && to != null) {
+			bstmt.setTimestamp(1, Timestamp.valueOf(to));
+		}
 		ResultSet resultSet = session.execute(bstmt);
 		Gson gson = new Gson();
 		StringBuffer jsonResult = new StringBuffer();
