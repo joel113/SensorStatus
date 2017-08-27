@@ -39,7 +39,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.joel.sensorstatus.ssi.SsiService</mainClass>
+					<mainClass>com.joel.iot.sensorstatus.SsiService</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
