@@ -33,6 +33,10 @@ https://stackoverflow.com/questions/26852413/cassandra-java-driver-how-many-cont
 
 create keyspace test with replication = {'class' : 'SimpleStrategy', 'replication_factor' : 2 }
 
+https://dzone.com/articles/introduction-apache-cassandras
+
+https://10kloc.wordpress.com/2012/12/27/cassandra-chapter-5-data-replication-strategies/
+
 (4) Inspecting the cassandra cluster
 
 nodetool status
